@@ -4,25 +4,34 @@ body {
   font-family: arial;
   text-align: center;
 }
-button {
+
+.links {
+  margin-block: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+a {
   font-size: 18px;
   font-family: Arial;
-  width: 140px;
-  height: 50px;
-  border-width: 1px;
+  width: 96px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px solid #dcdcdc;
+  text-decoration: none;
   color: #777777;
-  border-color: #dcdcdc;
   font-weight: bold;
-  padding: 6px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  padding: 2px;
+  border-radius: 6px;
+  box-shadow: inset 0px 1px 0px 0px #1c1b1b;
   text-shadow: inset 0px 1px 0px #ffffff;
   background: linear-gradient(#ededed, #dfdfdf);
 }
 
-button:hover {
+a:hover {
   background: linear-gradient(#dfdfdf, #ededed);
 }
