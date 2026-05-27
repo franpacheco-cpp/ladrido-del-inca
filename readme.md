@@ -1,3 +1,3 @@
-# Hola amiguitas y amiguitos
+# El Ladrido del Inca
 
-Buen _git_ jeje
+Esta apasionante historia te atrapará en un loop de angustia e incertidumbre.
