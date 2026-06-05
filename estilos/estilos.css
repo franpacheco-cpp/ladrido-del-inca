@@ -5,6 +5,12 @@ body {
   text-align: center;
 }
 
+.cuento {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 22px;
+}
+
 .links {
   margin-block: 18px;
   display: flex;
